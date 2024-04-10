@@ -1,15 +1,15 @@
-import { useEffect, useState } from "react";
-import { Text, TouchableOpacity, View } from "react-native";
-import { Socket, io } from "socket.io-client";
-import RightButtons from "./components/right-buttons";
-import { changeScreenOrientation } from "./lib/utils";
-import { GestureHandlerRootView } from "react-native-gesture-handler";
 import { StatusBar } from "expo-status-bar";
-import { buttonClick, trigger } from "./lib/events";
-import Pressable from "./components/pressable";
-import Joystick from "./components/joystick";
-import Dpad from "./components/dpad";
 import { Play, Undo } from "lucide-react-native";
+import { useEffect, useState } from "react";
+import { Text, View } from "react-native";
+import { GestureHandlerRootView } from "react-native-gesture-handler";
+import { Socket, io } from "socket.io-client";
+import Dpad from "./components/dpad";
+import Joystick from "./components/joystick";
+import Pressable from "./components/pressable";
+import RightButtons from "./components/right-buttons";
+import { buttonClick, trigger } from "./lib/events";
+import { changeScreenOrientation } from "./lib/utils";
 
 export default function App() {
   const [socket, setSocket] = useState<Socket | null>(null);

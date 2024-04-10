@@ -9,7 +9,6 @@
     "web": "expo start --web"
   },
   "dependencies": {
-    "@uidotdev/usehooks": "^2.4.1",
     "axios": "^1.6.8",
     "clsx": "^2.1.0",
     "expo": "~50.0.14",
