@@ -1,5 +1,7 @@
 # Game Pad
 
+![Game Pad](./game-pad.png)
+
 ### 1. Description
 
 This project demonstrates how to create a virtual controller as a mobile app using Expo that connects to a local server built with Node.js and Socket.IO. The server emulates a gamepad using the ViGEm library, allowing you to control the gamepad buttons, axes, triggers, and D-pad from your mobile device.
