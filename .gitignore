@@ -1,0 +1,41 @@
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# dependencies
+game-pad-mobile/node_modules/
+
+# Expo
+game-pad-mobile/.expo/
+game-pad-mobile/dist/
+game-pad-mobile/web-build/
+
+# Native
+game-pad-mobile/*.orig.*
+game-pad-mobile/*.jks
+game-pad-mobile/*.p8
+game-pad-mobile/*.p12
+game-pad-mobile/*.key
+game-pad-mobile/*.mobileprovision
+
+# Metro
+game-pad-mobile/.metro-health-check*
+
+# debug
+game-pad-mobile/npm-debug.*
+game-pad-mobile/yarn-debug.*
+game-pad-mobile/yarn-error.*
+
+# macOS
+game-pad-mobile/.DS_Store
+game-pad-mobile/*.pem
+
+# local env files
+game-pad-mobile/.env*.local
+game-pad-mobile/.env
+
+# typescript
+game-pad-mobile/*.tsbuildinfo
+
+
+
+
+game-pad-server/node_modules
