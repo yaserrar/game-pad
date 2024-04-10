@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { View, StyleSheet } from "react-native";
+import { useState } from "react";
+import { View } from "react-native";
 import { PanGestureHandler, State } from "react-native-gesture-handler";
 import { Socket } from "socket.io-client";
 import { joystick } from "../lib/events";

@@ -1,8 +1,8 @@
-import { ReactNode, useState } from "react";
-import { View, Vibration } from "react-native";
-import { GestureDetector, Gesture } from "react-native-gesture-handler";
-import { cn } from "../lib/utils";
 import * as Haptics from "expo-haptics";
+import { ReactNode, useState } from "react";
+import { View } from "react-native";
+import { Gesture, GestureDetector } from "react-native-gesture-handler";
+import { cn } from "../lib/utils";
 
 type Props = {
   classname?: string;
