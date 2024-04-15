@@ -16,17 +16,23 @@ This project demonstrates how to create a virtual controller as a mobile app usi
 
 ###### Clone the repository:
 
-`git clone https://github.com/yaserrar/game-pad`
+```bash
+git clone https://github.com/yaserrar/game-pad
+```
 
 ###### Install dependencies (server-side):
 
-`cd game-pad-server`
-`npm install`
+```bash
+cd game-pad-server
+npm install
+```
 
 ###### Install dependencies (mobile-side):
 
-`cd game-pad-mobile`
-`npm install`
+```bash
+cd game-pad-mobile
+npm install
+```
 
 ###### Set up server host:
 
@@ -36,12 +42,16 @@ find your ip adresse and add it in to the env variable EXPO_PUBLIC_SERVER_URL in
 
 ###### Run server:
 
-`cd game-pad-server`
-`npm run start`
+```bash
+cd game-pad-server
+npm run start
+```
 
 ###### Run mobile app:
 
-`cd game-pad-mobile`
-`npm run start`
+```bash
+cd game-pad-mobile
+npm run start
+```
 
 and use your phone with expo go installed and scan the QR code.
